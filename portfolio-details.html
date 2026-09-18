@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio Details</title>
+    <title id="doc-title">Detail Project - One Solutions Technic</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -35,7 +35,6 @@
       <div class="container-fluid container-xl position-relative d-flex align-items-center">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <img src="assets/img/logo2.png" alt="ost" />
-          <!-- <img src="assets/img/ost_logo.png" alt="ost" /> -->
           <h1 class="sitename">One Solutions Technic</h1>
         </a>
 
@@ -48,14 +47,15 @@
             <li class="dropdown">
               <a href="#"><span>Karya</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">CCTV</a></li>
-                <li><a href="#">Networking</a></li>
-                <li><a href="#">Server & System Integration</a></li>
-                <li><a href="#">Fiber Optic</a></li>
-                <li><a href="#">Videotron & Videowall</a></li>
-                <li><a href="#">UPS & Electrical</a></li>
-                <li><a href="#">Cabling Management</a></li>
-                <li><a href="#">IT Infrastructure</a></li>
+                <li><a href="portfolio-details.html?category=cctv">CCTV</a></li>
+                <li><a href="portfolio-details.html?category=networking">Networking</a></li>
+                <li><a href="portfolio-details.html?category=server">Server & System Integration</a></li>
+                <li><a href="portfolio-details.html?category=fiber-optic">Fiber Optic</a></li>
+                <li><a href="portfolio-details.html?category=videotron">Videotron & Videowall</a></li>
+                <li><a href="portfolio-details.html?category=ups">UPS & Electrical</a></li>
+                <li><a href="portfolio-details.html?category=cabling">Cabling Management</a></li>
+                <li><a href="portfolio-details.html?category=it-infra">IT Infrastructure</a></li>
+                <li><a href="portfolio-details.html?category=laptop-desktop">Servis Laptop & Desktop</a></li>
               </ul>
             </li>
             <li><a href="index.html#contact">Contact</a></li>
@@ -69,12 +69,12 @@
       <!-- Page Title -->
       <div class="page-title accent-background">
         <div class="container position-relative">
-          <h1>Server & System Integration</h1>
-          <p>Server and system integration services to streamline your business operations.</p>
+          <h1 id="header-title">Server & System Integration</h1>
+          <p id="header-subtitle">Server and system integration services to streamline your business operations.</p>
           <nav class="breadcrumbs">
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li class="current">Server & System Integration</li>
+              <li id="breadcrumb-active" class="current">Server & System Integration</li>
             </ol>
           </nav>
         </div>
@@ -84,6 +84,7 @@
       <!-- Portfolio Details Section -->
       <section id="portfolio-details" class="portfolio-details section">
         <div class="container" data-aos="fade-up">
+          <!-- Swiper Slider Gambar -->
           <div class="portfolio-details-slider swiper init-swiper">
             <script type="application/json" class="swiper-config">
               {
@@ -104,22 +105,8 @@
                 }
               }
             </script>
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/infra.png" alt="" />
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/cabling.png" alt="" />
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/fiber_optic.png" alt="" />
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/server.png" alt="" />
-              </div>
+            <div id="slider-wrapper" class="swiper-wrapper align-items-center">
+              <!-- Slider gambar di-render via JS -->
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -129,37 +116,22 @@
           <div class="row justify-content-between gy-4 mt-4">
             <div class="col-lg-8" data-aos="fade-up">
               <div class="portfolio-description">
-                <h2>Server & System Integration</h2>
-                <p>
-                  Server and system integration services are essential for businesses looking to streamline their operations and improve efficiency. By integrating various systems and technologies, businesses can create a cohesive and
-                  efficient IT infrastructure that supports their goals and objectives.
-                </p>
-                <p>
-                  Our team of experts specializes in server and system integration, providing customized solutions that meet the unique needs of each business. We work closely with our clients to understand their requirements and design a
-                  solution that integrates their existing systems and technologies seamlessly.
-                </p>
-
-                <p>
-                  Our server and system integration services include the installation and configuration of servers, networking equipment, and software applications. We also provide ongoing support and maintenance to ensure that the
-                  integrated systems continue to operate efficiently and effectively.
-                </p>
-
-                <p>
-                  By leveraging our server and system integration services, businesses can improve their operational efficiency, reduce costs, and enhance their overall performance. Our solutions are designed to help businesses achieve
-                  their goals and stay competitive in today's fast-paced business environment.
-                </p>
+                <h2 id="details-title">Server & System Integration</h2>
+                <div id="details-content">
+                  <!-- Paragraf deskripsi di-render via JS -->
+                </div>
               </div>
             </div>
 
             <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
               <div class="portfolio-info">
-                <h3>Project information</h3>
+                <h3>Project Information</h3>
                 <ul>
-                  <li><strong>Category</strong>Server & System Integration</li>
-                  <li><strong>Client</strong>PT. Goods Delivery Services</li>
-                  <li><strong>Project date</strong>01 March, 2026</li>
-                  <li><strong>Project URL</strong><a href="#">google.com</a></li>
-                  <li><a href="google.com" class="btn-visit align-self-start">Visit Website</a></li>
+                  <li><strong>Category</strong> <span id="info-category">Server & System Integration</span></li>
+                  <li><strong>Client</strong> <span id="info-client">PT. Goods Delivery Services</span></li>
+                  <li><strong>Project date</strong> <span id="info-date">01 March, 2026</span></li>
+                  <li><strong>Project URL</strong> <a href="#" id="info-url">google.com</a></li>
+                  <li><a href="#" id="info-btn-visit" class="btn-visit align-self-start">Visit Website</a></li>
                 </ul>
               </div>
             </div>
@@ -174,7 +146,6 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <!-- <span class="sitename">One Solutions Technic (OST)</span> -->
               <img src="assets/img/ost_logo.png" alt="ost" />
             </a>
             <div class="social-links d-flex mt-4">
@@ -221,7 +192,7 @@
       </div>
     </footer>
 
-    <!-- Scroll Top -->
+    <!-- Scroll Top & WhatsApp -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <a href="https://wa.link/8koan0" id="whatsapp-top" class="whatsapp-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
 
@@ -240,5 +211,8 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Dynamic Portfolio Loader -->
+    <script src="assets/js/portfolio-loader.js"></script>
   </body>
 </html>

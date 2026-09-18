@@ -2,7 +2,7 @@ const categoryData = {
   cctv: {
     title: 'CCTV & Security System',
     subtitle: 'Layanan instalasi dan pengawasan sistem keamanan CCTV terpadu.',
-    images: ['assets/img/portfolio/infra.png'],
+    images: ['assets/img/portfolio/infra.png', 'assets/img/portfolio/server.png'],
     paragraphs: [
       'Pemasangan sistem kamera pengawas (CCTV) berbasis IP maupun Analogue HD untuk menjaga keamanan aset area kantor, pabrik, maupun hunian.',
       'Integrasi sistem pemantauan terpusat yang bisa diakses secara remote kapan saja dan dari mana saja secara real-time via smartphone.',
@@ -14,7 +14,7 @@ const categoryData = {
   networking: {
     title: 'Networking Solutions',
     subtitle: 'Perancangan dan manajemen jaringan LAN/WAN & Wi-Fi Enterprise.',
-    images: ['assets/img/portfolio/infra.png'],
+    images: ['assets/img/portfolio/infra.png', 'assets/img/portfolio/cabling.png'],
     paragraphs: [
       'Solusi penataan jaringan komputer yang stabil, aman, dan berkecepatan tinggi untuk mendukung kelancaran operasional perusahaan.',
       'Konfigurasi router, switch, access point, serta firewall untuk mengoptimalkan lalu lintas data bisnis Anda.',
@@ -40,7 +40,7 @@ const categoryData = {
   'fiber-optic': {
     title: 'Fiber Optic Installation',
     subtitle: 'Infrastruktur jaringan kabel fiber optik kencang tanpa hambatan.',
-    images: ['assets/img/portfolio/fiber_optic.png'],
+    images: ['assets/img/portfolio/fiber_optic.png', 'assets/img/portfolio/cabling.png'],
     paragraphs: ['Pemasangan kabel Fiber Optic indoor/outdoor, penyambungan (splicing), serta pengujian konektivitas menggunakan OTDR.', 'Penanganan kendala jaringan FO terputus serta optimasi jaringan transmisi data backbone.'],
     client: 'PT. Nusantara Data Center',
     date: '20 Januari 2026',
@@ -49,7 +49,7 @@ const categoryData = {
   videotron: {
     title: 'Videotron & Videowall',
     subtitle: 'Pengadaan dan instalasi media display digital Indoor/Outdoor.',
-    images: ['assets/img/portfolio/infra.png'],
+    images: ['assets/img/portfolio/infra.png', 'assets/img/portfolio/server.png'],
     paragraphs: ['Pemasangan display digital Videotron dan Videowall untuk kebutuhan ruang rapat, command center, maupun iklan outdoor.', 'Dilengkapi setup CMS (Content Management System) untuk kemudahan kontrol konten dari jauh.'],
     client: 'Mall Surabaya Center',
     date: '05 Februari 2026',
@@ -58,7 +58,7 @@ const categoryData = {
   ups: {
     title: 'UPS & Electrical System',
     subtitle: 'Sistem backup daya listrik terintegrasi untuk menjaga kelangsungan sistem.',
-    images: ['assets/img/portfolio/server.png'],
+    images: ['assets/img/portfolio/server.png', 'assets/img/portfolio/infra.png'],
     paragraphs: [
       'Pemasangan UPS Industri kapasitas besar dan penataan panel listrik khusus untuk perlindungan perangkat kritikal server/data center.',
       'Mencegah resiko kerusakan perangkat dan kehilangan data akibat pemadaman listrik mendadak.',
@@ -70,7 +70,7 @@ const categoryData = {
   cabling: {
     title: 'Cabling Management',
     subtitle: 'Manajemen dan penataan kabel data agar terstruktur dan efisien.',
-    images: ['assets/img/portfolio/cabling.png'],
+    images: ['assets/img/portfolio/cabling.png', 'assets/img/portfolio/fiber_optic.png'],
     paragraphs: [
       'Jasa kerapihan dan repacking kabel server rack/patch panel agar sistem mudah di-maintenance dan terhindar dari bentrok instalasi.',
       'Meliputi pemberian label (labeling), dokumentasi jalur kabel, dan instalasi ducting/cable tray.',
@@ -82,7 +82,7 @@ const categoryData = {
   'it-infra': {
     title: 'IT Infrastructure Solutions',
     subtitle: 'Perancangan total infrastruktur IT dari tahap perencanaan hingga eksekusi.',
-    images: ['assets/img/portfolio/infra.png'],
+    images: ['assets/img/portfolio/infra.png', 'assets/img/portfolio/server.png'],
     paragraphs: [
       'Pembangunan server room/data center mini lengkap dengan Precision AC, Raised Floor, Access Control, dan Fire Suppression System.',
       'Solusi satu pintu bagi perusahaan yang sedang membangun kantor baru atau merenovasi infrastruktur IT lama.',
@@ -94,9 +94,7 @@ const categoryData = {
   'laptop-desktop': {
     title: 'Servis Laptop & Desktop',
     subtitle: 'Layanan perbaikan, pemeliharaan, dan upgrade perangkat keras maupun lunak PC & Laptop.',
-    images: [
-      'assets/img/portfolio/server.png', // Ganti dengan path gambar servis laptop/desktop kamu
-    ],
+    images: ['assets/img/portfolio/server.png', 'assets/img/portfolio/infra.png'],
     paragraphs: [
       'Layanan perbaikan profesional untuk berbagai masalah hardware dan software pada perangkat Laptop dan PC Desktop kantor maupun personal.',
       'Meliputi perbaikan motherboard, penggantian komponen (LCD, keyboard, Baterai, SSD/RAM Upgrade), pembersihan sistem pendingin (thermal paste), hingga instalasi sistem operasi dan software kerja.',
